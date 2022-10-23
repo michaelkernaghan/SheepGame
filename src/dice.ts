@@ -49,18 +49,8 @@ function rollDice() {
        var randomDice2 = Math.floor(6*Math.random())+1;
        return randomDice1 + randomDice2;
     } 
-
-
-
-//for (var i = 0; i < 5; i++) {
-//    position++;
-//    console.log(position);
-//}
-
-for (var i = 0; i < 5; i++) {
     const dieRoll = rollDice();
     console.log('Die roll is: ' +dieRoll);
     const position  = dieRoll;
     console.log("new_position =" +board_position_array[position])
     let current_position = position;
-}
